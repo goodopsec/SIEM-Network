@@ -12,6 +12,8 @@
 - ``drop http any any -> 10.0.2.15 any (msg: "Possible SQL Injection attack (Contains SELECT)"; flow:established,to_server; content:"select"; nocase; http_uri; sid:6;)``
 
 ![image](https://github.com/goodopsec/SIEM-Network/assets/37912203/0d85a987-bb38-4040-bab5-36a90e64051d)
+![image](https://github.com/goodopsec/SIEM-Network/assets/37912203/303bf774-2b02-4846-8a02-d439fe2166ed)
+
 ``04/28/2024-11:27:59.308948  [Drop] [1:4:0] Possible SQL Injection attack (Contains singlequote) [Classification: (null)] [Priority: 3] {TCP} 10.0.2.4:38130 -> 10.0.2.15:80`` <br>
 ``04/28/2024-11:27:59.308948  [Drop] [1:5:0] Possible SQL Injection attack (Contains UNION) [Classification: (null)] [Priority: 3] {TCP} 10.0.2.4:38130 -> 10.0.2.15:80`` <br>
 ``04/28/2024-11:27:59.308948  [Drop] [1:6:0] Possible SQL Injection attack (Contains SELECT) [Classification: (null)] [Priority: 3] {TCP} 10.0.2.4:38130 -> 10.0.2.15:80``
