@@ -18,3 +18,7 @@
 ``04/28/2024-11:27:59.308948  [Drop] [1:5:0] Possible SQL Injection attack (Contains UNION) [Classification: (null)] [Priority: 3] {TCP} 10.0.2.4:38130 -> 10.0.2.15:80`` <br>
 ``04/28/2024-11:27:59.308948  [Drop] [1:6:0] Possible SQL Injection attack (Contains SELECT) [Classification: (null)] [Priority: 3] {TCP} 10.0.2.4:38130 -> 10.0.2.15:80``
 
+## Elasticsearch
+### Finding the logs in Elasticsearch using the query <br>
+- ``suricata.eve.alert.signature_id : 4 or suricata.eve.alert.signature_id:5 or suricata.eve.alert.signature_id:6``
+  ![Untitled](https://github.com/goodopsec/SIEM-Network/assets/37912203/53fed23d-db8e-4917-aae9-1209e9acddd4)
