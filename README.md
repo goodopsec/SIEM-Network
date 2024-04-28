@@ -5,7 +5,7 @@
 - Serves as the attacker
 
 # Suricata Host
-- An Ubuntu VM running Suricata, Filebeat, and Auditbeat
+- An Ubuntu VM running Suricata, DVWA, Filebeat, and Auditbeat
 - Suricata serves as the HIPS
 - Filebeat ships Suricata logs to ElasticSearch
 - Auditbeat ships logs pertaining to events on the hosts
